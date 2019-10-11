@@ -1,6 +1,6 @@
 {
   "name": "@mdnx/express-cloudfront-gdpr",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "express middleware to detect if gdpr applies with the help of aws cloudfront",
   "keywords": [
     "express",

@@ -1,0 +1,42 @@
+{
+  "name": "@mdnx/express-cloudfront-gdpr",
+  "version": "1.0.0-alpha.1",
+  "description": "express middleware to detect if gdpr applies with the help of aws cloudfront",
+  "keywords": [
+    "express",
+    "middleware",
+    "cloudfront",
+    "gdpr"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "test:watch": "jest --watch",
+    "test": "jest --coverage"
+  },
+  "author": "Denny Bartelt <d.bartelt@mairdumont-netletix.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mairdumont-netletix/express-cloudfront-gdpr"
+  },
+  "bugs": {
+    "url": "https://github.com/mairdumont-netletix/express-cloudfront-gdpr/issues"
+  },
+  "homepage": "https://github.com/mairdumont-netletix/express-cloudfront-gdpr#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testRegex": "/__tests__/.*\\.spec\\.ts$"
+  }
+}

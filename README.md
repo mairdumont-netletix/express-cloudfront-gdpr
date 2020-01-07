@@ -40,3 +40,12 @@ app.use(ccpaHeaderMiddleware({
   headerFalseValue: '0',
 }));
 ```
+
+## Cloudfront Setup
+
+In the cloudfront configuration you need to whitelist the following headers to get passed to the express server:
+
+- "CloudFront-Viewer-Country"
+- "CloudFront-Viewer-Country-Region"
+
+![cloudfront whitelist headers](cloudfront-header-whitelist.png "cloudfront whitelist headers")

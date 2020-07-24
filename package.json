@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/mairdumont-netletix/express-cloudfront-gdpr#readme",
   "devDependencies": {
-    "@types/express": "^4.17.2",
+    "@types/express": "^4.17.7",
     "@types/jest": "^26.0.7",
     "jest": "^26.1.0",
     "rimraf": "^3.0.2",
